@@ -36,4 +36,13 @@ Please note that it's always recommended to regularly backup your databases to p
 ## Directory Structure
 
 Your XAMPP installation directory should have the following structure:
+xampp/
 
+    mysql/
+        data_old/ <-- Renamed original 'data' folder
+        backup/ <-- MySQL backup folder
+    htdocs/
+        ... <-- Other files and folders in htdocs
+    ... <-- Other XAMPP files and folders
+
+Make sure to replace `xampp/` with the actual path to your XAMPP installation directory.
